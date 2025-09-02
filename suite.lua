@@ -206,7 +206,7 @@ local function createui(game)
                                 _G.TeleportConnection = lp.OnTeleport:Connect(function(State)
                                     if Options.autexectp.Value and (not TeleportCheck) and queueteleport then
                                         TeleportCheck = true
-                                        queueteleport("loadstring(game:HttpGet('YOUR_SCRIPT_URL_HERE'))()")
+                                        queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/xb3rlinz/Loader/refs/heads/main/suite.lua'))()")
                                     end
                                 end)
                             end
