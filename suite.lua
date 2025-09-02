@@ -210,11 +210,6 @@ local function createui(game)
                                     end
                                 end)
                             end
-                            Library:Notify({
-                                Title = "Notification",
-                                Content = "Auto Execute on Teleport enabled.",
-                                Duration = 3
-                            })
                         else
                             Library:Notify({
                                 Title = "Warning",
